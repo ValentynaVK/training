@@ -1,0 +1,48 @@
+.title{
+    width: 1001px;
+    color: #FBFBFB;
+text-align: center;
+font-family: Inter;
+font-size: 80px;
+font-style: normal;
+font-weight: 500;
+line-height: ;
+letter-spacing: 0.02em;
+}
+.cont{
+    width: 1280px;
+height: 800px;
+
+}
+body{
+    background-color:#0E1823;
+  }
+  
+  .loader{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family:arial;
+      
+  }
+  .loader h1{
+    color:rgba(0,0,0,.1);
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhT9AXpUqUyMjILJ9qn9PDvXpdXE-iqbc-HMXHfU04s6rJ0fbT);
+    background-repeat:repeat-x;
+    -webkit-background-clip:text;
+    animation: animate 60s linear infinite;
+    
+  }
+  
+  @keyframes animate{
+    0%{
+      background-position:left 0px top 80px;
+    }
+       40%{
+      background-position:left 800px top -50px;
+    }
+    
+      80%{
+      background-position:left 400px top -50px;
+    }
